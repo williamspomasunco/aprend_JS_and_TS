@@ -205,7 +205,7 @@ if(hora >= 0 && hora <= 5){
 
 /* operador ternario(condicion)? verdaderos : falsa */
 
-console.log ('operdor ternario')
+console.log ('operador ternario')
 
 let eresmayor = (edad >= 18) ? 
 'eres mayor de edad': 
