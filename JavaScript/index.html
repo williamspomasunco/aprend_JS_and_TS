@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fundamentos JavaScript</title>
+    
+</head>
+<body>
+    <h1>fundamentos JavaScript</h1>
+    <script>
+        /*
+        // varible de anbito general
+        var hola = 'hola mundo'
+        console.log(hola)
+
+        /* varible de anbito en bloque 
+        es buena paractica utilizar let antes que var*/
+        /*let variable = 'ambiato de bloque'
+        console.log(variable)
+        console.log(window.hola)
+        console.log(window.hello*/
+        
+
+        
+        const PI = 3.14;
+        /* const NUEVE; esto es un error 
+        por que los constante no debe estar vacio */
+        console.log(PI);
+
+        // objetos
+        const objeto = {
+            nombre: "williams",
+            edad : 19
+        };
+
+        // areglos
+
+        const colores = ["blanco","negro","azul"];
+
+        console.log(objeto);
+        console.log(colores);
+        // esto agrega nuevos atributos al objetos.
+        objeto.correo = "williamspomasunco@gamil";
+        objeto.Apellidos = "Pomasunco Jurado";
+        // esto agrega nuevos valores a los arreglos.
+        colores.push('anaranjado');
+
+        /* en cambio de los variables primitivos 
+        los compuestos se puede agregar y quitar 
+        propiedades */ 
+
+        let nombre = 'williams';
+        let Apellidos = 'pomasunco'
+
+        let lorem = "    Lorem awfawgfawgawdaawfawawf       "
+
+
+
+
+
+        
+        
+        console.log(
+            // nos regresa la cantidad de caracteres
+            nombre.length, 
+            // lo cambia a mayusculas
+            nombre.toLocaleUpperCase(),
+            // lo cambia a minusculas
+            nombre.toLocaleLowerCase(),
+            /* si incluye una serie de carecteres 
+            si es asi devuelve true, en lo contrario es un false*/
+            lorem.includes('Lorem'),
+            // quita todos loa espacios en blanco
+            lorem.trim(),
+            // split lo combierte en un arreglos
+            lorem.trim().split()
+            
+        );
+
+
+        // concatenación
+        let saludo = 'Hola mi nombre es' +' ' + nombre + ' '  +Apellidos;
+        console.log(saludo);
+
+        //Interpoalcion de variebles
+        // template string 
+        let saludo2 = `hola mi nombre es ${nombre} ${Apellidos} .`;
+
+        console.log(saludo2);
+        /* con alt + 96 de consigue el `, 
+        lo siguiente sirve para poner code html 
+        */
+        let ul = `    <ul>
+        <li>verano</li>
+        <li>invierno</li>
+        <li>hola hermano</li>
+
+        </ul>`
+
+
+        console.log(ul);
+    </script>
+    <script src="number.js"></script>
+    <ul>
+        <li>leonel</li>
+        <li>poamusco</li>
+    </ul>
+    
+</body>
+</html>
